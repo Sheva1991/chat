@@ -56,7 +56,7 @@ const Chat = ({ users, messages, userName, roomId, onAddMessage }) => {
                                     onChange={(e) => setMessageValue(e.target.value)}
                                     rows='3'
                                 ></textarea>
-                                <button type='button' onClick={onSendMessage} className='btn yellow darken-4'>Send</button>
+                                <button type='button' onClick={onSendMessage} className='btn blue darken-3' style={{ float: "right" }}>Send</button>
                             </div>
 
                         </form>
